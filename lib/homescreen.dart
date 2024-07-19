@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: InkWell(
               onTap:(){
     getwebData();
-    Timer(Duration(seconds: 6),(){
+    Timer(Duration(seconds: 1),(){
     showDialog(context: context, builder: (BuildContext context){
     return SafeArea(
     child: Container(
